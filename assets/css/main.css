@@ -145,7 +145,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3e3e3e;
-		margin: 0 0 0.75em 0;
+		margin: 0 0 0.85em 0;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1941,7 +1941,7 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #328eff;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -2410,5 +2410,22 @@ input, select, textarea {
 					}
 
 	}
-
+	.whatsapp {
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:40px;
+		right:40px;
+		padding-top: 10px;
+		background-color:#25d366;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+		font-size:30px;
+		z-index:100;
+	  }
+	  
+	  .whatsapp-icon {
+		margin-top:13px;
+	  }
 	
