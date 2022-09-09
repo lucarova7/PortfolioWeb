@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/efectopict.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -24,11 +24,13 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-4 col-5-large col-12-medium">
+							<div class="effect-image-1 zoom-effect-2">
 							<span class="image fit"><img src="images/pictMe.jpg" alt="" /></span>
+							</div>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Hi. I'm <strong>Luis Carlos Rodríguez</strong></h1>
+								<h1>Hi. I'm <strong id="name">Luis Carlos Rodríguez</strong></h1>
 							</header>
 							<p>Bienvenido, he creado este espacio para permitirte conocerme un poco más. Aquí podrás ver mis proyectos e intereses laborales. Espero que puedas encontrar una conexión conmigo y decidas ponerte en contacto muy pronto.</p>
 							<a href="https://drive.google.com/uc?id=1Pj5xRYqzrEATp8ep0ie8OJL6OeroSyiz&export=download" class="button large scrolly">Descarga mi CV</a>
@@ -41,7 +43,7 @@
 			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2><strong>Acerca</strong></h2>
+						<h1><strong>Acerca</strong></h1>
 						<p>Data Analytics obsessive y entusiasta del desarrollo web. Soy una persona reflexiva y curiosa que disfruta de aprender constantemente y siempre está en busca de entender las razones detrás de las cosas.</p>
 					</header>
 					<div class="row aln-center">
@@ -62,7 +64,7 @@
 							<section class="box style1">
 								<span class="icon solid featured fa-code"></span>
 								<h3>Web Development</h3>
-								<p>Técnico en sistemas y tripulante de MisionTic2022 en capacidad de generar software con Java (Spring Boot) y JavaScript para generar soluciones y aplicar insights de manera significativa y eficiente.</p>
+								<p>Técnico en sistemas y tripulante de MisionTic2022 en capacidad de generar soluciones e insights de manera eficiente y practica con Java (Spring Boot) y JavaScript.</p>
 							</section>
 						</div>
 					</div>
@@ -73,13 +75,15 @@
 			<article id="portfolio" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Proyectos</h2>
+						<h1><strong>Proyectos</strong></h1>
 						<p>Este es un listado de proyectos en los que he trabajado.</p>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/crudJava.jpg" alt="" /></a>
+								<div class="effect-image-1 zoom-effect-1">
+									<a href="#" class="image featured"><img src="images/crudJava.jpg" alt="" /></a>
+								</div>
 								<h3><a href="#">Crud Java</a></h3>
 								<p>Aplicación paradigma POO en Java y Base de datos con MySQL Workbench.</p>
 								<ul class="actions">
@@ -89,8 +93,10 @@
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/UberProyectoIntegrador.jpg" alt="" /></a>
-								<h3><a href="#">Uber_User Visualizacion</a></h3>
+								<div class="effect-image-1 zoom-effect-1">
+									<a href="#" class="image featured"><img src="images/UberProyectoIntegrador.jpg" alt="" /></a>
+								</div>
+									<h3><a href="#">Uber_User Visualizacion</a></h3>
 								<p>Análisis, limpieza, visualización y generación de insights a través de los datos establecidos en el DataSet propuesto aplicando el ciclo de vida.</p>
 								<ul class="actions">
 									<li><a href="#" target="_blank" class="button">Repositorio</a></li>
@@ -165,7 +171,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Hecho en Colombia. All rights reserved. 2022</li>
+							<li>&copy; Hecho en Cali, Colombia. All rights reserved. 2022</li>
 						</ul>
 					</footer>
 				</div>
@@ -178,6 +184,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/efectotexto.js"></script>
 
 	</body>
 </html>

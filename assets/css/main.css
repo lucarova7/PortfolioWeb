@@ -2428,4 +2428,74 @@ input, select, textarea {
 	  .whatsapp-icon {
 		margin-top:13px;
 	  }
-	
+
+/*-- global css --*/
+
+.zoom-effect-1 img,
+.zoom-effect-2 img,
+.opacity-effect img,
+.blur-effect img,
+.grayscale-effect img{
+   transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+.image-wrapper{
+	margin-bottom: 35px;
+}
+.effect-image-1{
+	position: relative;
+	display: block;
+}
+.overlay-text p,
+.overlay-sim-text-2 p,
+.overlay-text-effect-3 p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 20px 20px;
+}
+.overlay{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+	background: rgba(246,0,2,.7);
+	opacity: 0;
+	visibility: hidden;
+}
+
+/*!-- ovarlay zoom out effect --*/
+
+.zoom-effect-2{
+	overflow: hidden;
+}
+
+.zoom-effect-2 img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+.zoom-effect-2:hover img{
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+/*!-- ovarlay zoom in effect --*/
+
+.zoom-effect-1{
+	overflow: hidden;
+}
+
+.zoom-effect-1 img{
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.zoom-effect-1:hover img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
